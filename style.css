@@ -74,10 +74,6 @@ input:focus, textarea:focus, text:focus {
   outline: none;
 }
 
-.ancho {
-  margin: 0px 45px 10px;
-}
-
 .borde {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -97,6 +93,13 @@ input:focus, textarea:focus, text:focus {
   width: auto;
   margin: 0 auto;
   z-index: 3;
+}
+
+.borde:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+          box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
 }
 
 .escribo {
@@ -170,10 +173,69 @@ input:focus, textarea:focus, text:focus {
 
 .offered a {
   text-decoration: none;
+  color: #1B0DB3;
 }
 
 .offered a:hover {
   text-decoration: underline;
+}
+
+.offered a:focus {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 97vh;
+}
+
+#content-wrap {
+  padding-bottom: 100px;
+  /* Footer height */
+}
+
+#footer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100;
+  /* Footer height */
+  margin-bottom: -10px;
+  background-color: #F2F2F2;
+  line-height: 40px;
+  border-top: 1px solid #dadce0;
+  display: block;
+  font-size: 14px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.argentina {
+  height: 40px;
+  padding-left: 30px;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+}
+
+.resto a {
+  text-decoration: none;
+  color: #70757a;
+  padding: 10px;
+}
+
+.resto1 {
+  float: left;
+  padding-left: 20px;
+  line-height: 40px;
+}
+
+.resto2 {
+  float: right;
+  padding-right: 30px;
+  line-height: 40px;
 }
 
 .none {
