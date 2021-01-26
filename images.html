@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .borde {
+    background: url(https://findicons.com/files/icons/1389/g5_system/32/toolbar_find.png), url(https://i.ibb.co/M9DSzT7/27-272205-google-microphone-png-google-search-by-voice-icon-removebg-preview.png), url(https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 3% center, 96% center, 90% center;
+    background-size: 18px, 17px, 24px;
+}
+        .img{
+            color: #4585F4;
+            font-size: 16px;
+            white-space: nowrap;
+            text-align: center;
+        }
+        .logosub {
+            left: -57px;
+            position: relative;
+            top: 38px;
+            white-space: nowrap;
+        }
+    </style>
+
+</head>
+<body>
+<div id="page-container">
+<div id="content-wrap">
+
+    <!--navbar-->
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Google</a>
+            </li>
+        </ul>    
+    </nav>
+
+    <!--Logo-->
+    <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        <div class="logosub">
+            <span class="img">images</span>
+        </div>
+    </div>
+
+    <!--Form-->
+    <div class="formulario">
+        <div class="barras">
+            <form action="https://google.com/search">
+
+                <div>
+                    <div class="borde">
+                        <input type="text" name="q" title="search" class="escribo">
+                        <input type=hidden name='tbm' value='isch' />
+                    </div>
+                </div>
+
+                <div class="ingresos none">
+                    <input type="submit" value="Google Search">
+                    <button>I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <p class="offered none">Google offered in: <a href="#">Español (Latinoamérica)</a></p>
+</div>
+
+    <!--footer-->
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="barra">
+                <div>
+                    <div class="argentina">
+                        <span>Argentina</span>
+                    </div>
+                </div>
+                <div class="resto">
+                    <span class="resto2">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </span>
+                    <span class="resto1">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">About</a>
+                        <a href="#">How Search works</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
